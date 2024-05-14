@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #F06724;
+    --primary-color-rgb: rgb(255, 105, 0);
+    --secondary-color: #ffffff;
+    --primary-hover-color: #EB4E16;
+    --main-black: #010101;
+
+    /* mobile screens */
+    --mobile-main-padding: 10px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
