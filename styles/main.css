@@ -4,15 +4,20 @@
     --secondary-color: #ffffff;
     --primary-hover-color: #EB4E16;
     --main-black: #010101;
+    --secondary-white: #F8F8F8;
+
+    --section-padding: 100px;
 
     /* mobile screens */
-    --mobile-main-padding: 10px
+    --mobile-main-padding: 10px;
+    --mobile-section-padding: 50px
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
