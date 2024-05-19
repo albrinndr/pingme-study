@@ -20,7 +20,6 @@ body {
 
 .h1 {
     font-size: 92px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 108px
@@ -41,7 +40,6 @@ body {
 
 .h3 {
     font-size: 33px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 44px;
@@ -56,15 +54,12 @@ body {
 
 .h4 {
     font-size: 25px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 600;
     line-height: 34px;
-    color: #010101
 }
 
 .h5 {
     font-size: 23px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 500;
     line-height: 36px;
     color: #010101
@@ -86,7 +81,6 @@ body {
 
 .h6 {
     font-size: 20px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 700;
     line-height: 30px;
     color: #010101
@@ -94,7 +88,6 @@ body {
 
 .p {
     font-size: 17px;
-    font-family: "Poppins", sans-serif !important;
     font-weight: 400 !important;
     line-height: 30px;
     color: inherit;
@@ -210,14 +203,14 @@ body {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     letter-spacing: 0;
     line-height: 1em;
     margin: 0;
     opacity: 1;
     outline: 0;
-    padding: 1.2em 2em;
+    padding: 1em 1em;
     position: relative;
     text-align: center;
     text-decoration: none;
@@ -230,13 +223,12 @@ body {
     vertical-align: baseline;
     white-space: nowrap;
     border: 1px solid var(--primary-color);
-    border-radius: 5px;
 }
 
 .primary-btn:before {
     animation: opacityFallbackOut .5s step-end forwards;
     backface-visibility: hidden;
-    background-color: #EBEBEB;
+    background-color: var(--primary-color-darker);
     color: black;
     clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
     content: "";
@@ -247,26 +239,19 @@ body {
     transform: translateZ(0);
     transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
     width: 100%;
-    border-radius: 5px;
 
 }
 
 .primary-btn:hover:before {
     animation: opacityFallbackIn 0s step-start forwards;
     clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
-    background-color: #fff;
+    background-color: var(--primary-color-darker);
     color: black;
-    border-radius: 5px;
-
-
 }
 
 .primary-btn:after {
-    background-color: #FFFFFF;
+    background-color: var(--primary-color-darker);
     color: black;
-    border-radius: 5px;
-
-
 }
 
 .primary-btn span {
@@ -275,7 +260,5 @@ body {
 }
 
 .primary-btn:hover {
-    color: var(--primary-color);
-    border-radius: 5px;
-
+    border-color: var(--primary-color-darker);
 }
