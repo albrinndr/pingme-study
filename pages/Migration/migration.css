@@ -1,0 +1,164 @@
+.migration .accordion button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+@media (min-width: 769px) {
+    .migration .accordion button {
+        padding: 21px;
+    }
+}
+
+@media (max-width: 768px) {
+    .migration .accordion button {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .migration .accordion button {
+        padding: 18px 14px;
+        font-size: 18px;
+    }
+}
+
+.migration .accordion-button:not(.collapsed) {
+    border-bottom: 1px solid var(--primary-card-border-color);
+}
+
+.migration .accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.migration .accordion-button:not(.collapsed)::after {
+    color: black;
+}
+
+.migration .accordion-button:not(.collapsed),
+.migration .accordion-button:active,
+.migration .accordion button:focus {
+    background: inherit;
+    box-shadow: none;
+    color: black;
+}
+
+.migration .accordion {
+    border: none;
+}
+
+.migration .accordion-item {
+    border: 1px solid var(--primary-card-border-color) !important;
+    border-radius: var(--primary-card-border-radius) !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.migration .accordion-body .sub-menu {
+    padding-left: 0;
+}
+
+.migration .accordion-body {
+    padding: 21px;
+}
+
+@media (max-width: 768px) {
+    .migration .accordion-body {
+        padding: 18px;
+    }
+
+    .migration .accordion-body ul,
+    .migration .accordion-body ol {
+        padding-left: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .migration .accordion-body {
+        padding: 14px;
+    }
+
+    .migration .accordion-body ul,
+    .migration .accordion-body ol {
+        padding-left: 14px;
+    }
+}
+
+.migration .accordion-body ul,
+.migration .accordion-body ol {
+    margin-bottom: 0px;
+    padding-left: 21px;
+}
+
+/* accordion finished */
+
+.migration .header-part h4 {
+    font-size: 33px;
+}
+
+.migration .header-part div {
+    width: 120px;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: var(--primary-color);
+}
+
+.migration .margin {
+    margin: 50px 0px;
+}
+
+.migration .ad {
+    font-size: 18px;
+}
+
+.migration {
+    padding-bottom: 30vh;
+    background-color: var(--secondary-white);
+}
+
+.migration .tabs {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    border-radius: var(--primary-card-border-radius);
+    border-color: var(--primary-card-border-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.migration .tabs p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.migration .tabs a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.migration .tabs a:hover {
+    color: var(--primary-color);
+}
+
+@media (min-width: 1200px) {
+    .migration .col-lg-4 {
+        padding-right: 10vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .migration .col-lg-4 {
+        padding-right: 5vh;
+    }
+}

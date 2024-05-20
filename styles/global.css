@@ -194,6 +194,11 @@ body {
     }
 }
 
+.mini-padding-y {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 .primary-btn {
     appearance: none;
@@ -261,4 +266,52 @@ body {
 
 .primary-btn:hover {
     border-color: var(--primary-color-darker);
+}
+
+
+
+.section-banner {
+    height: 440px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-banner-container {
+    position: relative;
+}
+
+.section-banner .shade {
+    background: url('../assets/About/inner-banner-shade.png') center center no-repeat !important;
+    background-position: cover !important;
+    background-color: rgba(38, 50, 56, 0.2) !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.section-banner .section-banner-img {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section-banner article {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 1;
+}
+
+.section-banner article img {
+    margin-bottom: 40px;
+}
+
+.section-banner article p {
+    max-width: 600px;
 }

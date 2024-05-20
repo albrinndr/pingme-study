@@ -9,6 +9,8 @@
 
     --section-padding: 100px;
 
+    --primary-card-border-radius: 0px;
+    --primary-card-border-color: #dee2e6;
     /* mobile screens */
     --mobile-main-padding: 10px;
     --mobile-section-padding: 50px
