@@ -1,8 +1,8 @@
-.migration .header-part h4 {
+.ausbildung .header-part h4 {
     font-size: 33px;
 }
 
-.migration .header-part div {
+.ausbildung .header-part div {
     width: 120px;
     height: 4px;
     border-radius: 10px;
@@ -10,20 +10,20 @@
     background-color: var(--primary-color);
 }
 
-.migration .margin {
+.ausbildung .margin {
     margin: 50px 0px;
 }
 
-.migration .ad {
+.ausbildung .ad {
     font-size: 18px;
 }
 
-.migration {
+.ausbildung {
     padding-bottom: 30vh;
     background-color: var(--secondary-white);
 }
 
-.migration .tabs {
+.ausbildung .tabs {
     box-shadow: rgba(17, 17, 26, 0.1) 0px .3px 0px;
     border-radius: var(--primary-card-border-radius);
     border-color: var(--primary-card-border-color);
@@ -35,31 +35,35 @@
     gap: 20px;
 }
 
-.migration .tabs p {
+.ausbildung .tabs p {
     font-weight: 500;
     margin: 0;
 }
 
-.migration .tabs a {
+.ausbildung .tabs a {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.migration a:hover p,
-.migration a:hover i {
+.ausbildung a:hover p,
+.ausbildung a:hover i {
     color: var(--primary-color);
 }
 
 
 @media (min-width: 1200px) {
-    .migration .col-lg-4 {
+    .ausbildung .col-lg-4 {
         padding-right: 10vh;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    .migration .col-lg-4 {
+    .ausbildung .col-lg-4 {
         padding-right: 5vh;
     }
+}
+
+.ausbildung p span {
+    color: var(--primary-color);
 }

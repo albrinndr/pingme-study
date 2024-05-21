@@ -329,6 +329,7 @@ body {
     font-size: 20px;
     border-bottom: 1px solid transparent;
     transition: border-color 0.3s ease;
+    font-weight: 500;
 }
 
 @media (min-width: 769px) {
