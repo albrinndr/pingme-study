@@ -38,6 +38,13 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .h2 {
+        font-size: 26px;
+        line-height: 44px
+    }
+}
+
 .h3 {
     font-size: 33px;
     font-weight: 600;
