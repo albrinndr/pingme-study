@@ -1,0 +1,111 @@
+.service .header-part h4 {
+    font-size: 33px;
+}
+
+.service .header-part .title-underline {
+    width: 150px;
+    height: 3.5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--primary-color);
+}
+
+
+.service .header-part img {
+    width: 100%;
+    height: 100%;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.service .margin {
+    margin: 50px 0px;
+}
+
+.service .ad {
+    font-size: 18px;
+}
+
+.service {
+    padding-bottom: 30vh;
+    background-color: var(--secondary-white);
+}
+
+.service .tabs {
+    box-shadow: none;
+    border-radius: var(--primary-card-border-radius);
+    border-color: var(--primary-card-border-color);
+    border: none;
+    border-bottom: 1px solid var(--primary-card-border-color);
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.service .tabs img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.service .tabs p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.service .tabs a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.service a:hover p,
+.service a:hover i {
+    color: var(--primary-color);
+}
+
+
+@media (min-width: 1200px) {
+    .service .col-lg-4 {
+        padding-right: 10vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .service .col-lg-4 {
+        padding-right: 5vh;
+    }
+}
+
+.service p span {
+    color: var(--primary-color);
+}
+
+.service .special-services ul li {
+    padding: 20px 40px 10px 20px !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    margin: 0px !important;
+}
+
+
+@media(max-width:576px) {
+    .service .header-part .title-underline {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .service .special-services ul li {
+        padding: 10px 20px 5px 10px !important;
+    }
+
+    .service .margin {
+        margin: 30px 0px;
+    }
+
+}

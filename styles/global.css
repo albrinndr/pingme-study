@@ -53,9 +53,17 @@ body {
 }
 
 .h4 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 34px;
+}
+
+@media(max-width:576px) {
+    .h4 {
+        font-size: 22px !important;
+        font-weight: 700 !important;
+        line-height: 34px !important;
+    }
 }
 
 .h5 {

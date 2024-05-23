@@ -4,7 +4,7 @@
 
 .ausbildung .header-part div {
     width: 120px;
-    height: 4px;
+    height: 3.5px;
     border-radius: 10px;
     margin-top: 30px;
     background-color: var(--primary-color);
@@ -32,7 +32,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .ausbildung .tabs p {
@@ -66,4 +66,10 @@
 
 .ausbildung p span {
     color: var(--primary-color);
+}
+
+@media(max-width:576px) {
+    .ausbildung .margin {
+        margin: 30px 0px;
+    }
 }

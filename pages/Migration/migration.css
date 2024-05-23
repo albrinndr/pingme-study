@@ -2,9 +2,10 @@
     font-size: 33px;
 }
 
+
 .migration .header-part div {
     width: 120px;
-    height: 4px;
+    height: 3.5px;
     border-radius: 10px;
     margin-top: 30px;
     background-color: var(--primary-color);
@@ -61,5 +62,12 @@
 @media (min-width: 992px) and (max-width: 1200px) {
     .migration .col-lg-4 {
         padding-right: 5vh;
+    }
+}
+
+
+@media(max-width:576px) {
+    .migration .margin {
+        margin: 30px 0px;
     }
 }
