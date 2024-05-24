@@ -41,7 +41,7 @@ body {
 @media (max-width: 500px) {
     .h2 {
         font-size: 26px;
-        line-height: 44px
+        line-height: 34px
     }
 }
 
@@ -289,6 +289,25 @@ body {
     height: 440px;
     overflow: hidden;
     position: relative;
+    padding-top: 100px;
+}
+
+@media(max-width:768px) {
+    .section-banner {
+        height: 200px;
+    }
+
+    .section-banner article p {
+        display: none;
+    }
+
+    .section-banner article {
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        margin: 0px !important;
+    }
+
 }
 
 .section-banner-container {
@@ -433,4 +452,16 @@ body {
 .custom-accordion .accordion-body ol {
     margin-bottom: 0px;
     padding-left: 21px;
+}
+
+.no-banner-paddingY {
+    padding: var(--no-banner-section-padding) 0px;
+}
+
+@media (max-width:768px) {
+    .no-banner-paddingY {
+        padding: var(--no-banner-section-padding-mobile) 0px;
+
+    }
+
 }
