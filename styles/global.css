@@ -116,6 +116,12 @@ body {
     font-weight: 700
 }
 
+.p.medium {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 500 !important;
+}
+
 @media (max-width: 1199px) {
     .p {
         font-size: 14px;

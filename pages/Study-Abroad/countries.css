@@ -93,6 +93,7 @@
 .country .nations .card.active {
     border-color: var(--primary-color);
     border-width: 2px;
+    color: var(--primary-color);
 }
 
 .country .nations .card img {
