@@ -1,73 +1,70 @@
 .migration .header-part h4 {
-    font-size: 33px;
+  font-size: 33px;
 }
 
-
 .migration .header-part div {
-    width: 120px;
-    height: 3.5px;
-    border-radius: 10px;
-    margin-top: 30px;
-    background-color: var(--primary-color);
+  width: 120px;
+  height: 3.5px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: var(--primary-color);
 }
 
 .migration .margin {
-    margin: 50px 0px;
+  margin: 50px 0px;
 }
 
 .migration .ad {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .migration {
-    padding-bottom: 30vh;
-    background-color: var(--secondary-white);
+  padding-bottom: 30vh;
+  background-color: var(--secondary-white);
 }
 
 .migration .tabs {
-    box-shadow: rgba(17, 17, 26, 0.1) 0px .3px 0px;
-    border-radius: var(--primary-card-border-radius);
-    border-color: var(--primary-card-border-color);
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0.3px 0px;
+  border-radius: var(--primary-card-border-radius);
+  border-color: var(--primary-card-border-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .migration .tabs p {
-    font-weight: 500;
-    margin: 0;
+  font-weight: 500;
+  margin: 0;
 }
 
 .migration .tabs a {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .migration a:hover p,
 .migration a:hover i {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
-
 @media (min-width: 1200px) {
-    .migration .col-lg-4 {
-        padding-right: 10vh;
-    }
+  .migration .col-lg-4 {
+    padding-right: 10vh;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    .migration .col-lg-4 {
-        padding-right: 5vh;
-    }
+  .migration .col-lg-4 {
+    padding-right: 5vh;
+  }
 }
 
-
-@media(max-width:576px) {
-    .migration .margin {
-        margin: 30px 0px;
-    }
+@media (max-width: 576px) {
+  .migration .margin {
+    margin: 30px 0px;
+  }
 }

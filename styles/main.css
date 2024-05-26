@@ -1,46 +1,46 @@
 :root {
-    --primary-color: #F06724;
-    --primary-color-darker: #c55200;
-    --primary-color-lighter: #F48220;
-    --primary-color-rgb: rgb(255, 105, 0);
-    --secondary-color: #ffffff;
-    --primary-hover-color: #EB4E16;
-    --main-black: #010101;
-    --secondary-white: #F8F8F8;
+  --primary-color: #f06724;
+  --primary-color-darker: #c55200;
+  --primary-color-lighter: #f48220;
+  --primary-color-rgb: rgb(255, 105, 0);
+  --secondary-color: #ffffff;
+  --primary-hover-color: #eb4e16;
+  --main-black: #010101;
+  --secondary-white: #f8f8f8;
 
-    --section-padding: 100px;
-    --no-banner-section-padding: 60px;
+  --section-padding: 100px;
+  --no-banner-section-padding: 60px;
 
-    --primary-card-border-radius: 2px;
-    --primary-card-border-color: #dee2e6;
+  --primary-card-border-radius: 2px;
+  --primary-card-border-color: #dee2e6;
 
-    --primary-btn-border-radius:5px;
-    /* mobile screens */
-    --mobile-main-padding: 10px;
-    --mobile-section-padding: 30px;
-    --no-banner-section-padding-mobile: 40px;
+  --primary-btn-border-radius: 5px;
+  /* mobile screens */
+  --mobile-main-padding: 10px;
+  --mobile-section-padding: 30px;
+  --no-banner-section-padding-mobile: 40px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin-top: 50px !important;
+  margin-top: 50px !important;
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-    border-radius: 10px;
+  background: var(--primary-color);
+  border-radius: 10px;
 }

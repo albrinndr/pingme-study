@@ -1,43 +1,42 @@
 .service {
-    background-color: var(--secondary-white);
+  background-color: var(--secondary-white);
 }
 
-
 .service .card-container {
-    padding: 15px !important;
+  padding: 15px !important;
 }
 
 .service .card-container .card {
-    background-color: #fff;
-    border: 1px solid var(--primary-card-border-color);
-    border-radius: var(--primary-card-border-radius);
-    transition: all 0.25s ease-in-out;
-    padding: 20px;
-    height: 190px;
+  background-color: #fff;
+  border: 1px solid var(--primary-card-border-color);
+  border-radius: var(--primary-card-border-radius);
+  transition: all 0.25s ease-in-out;
+  padding: 20px;
+  height: 190px;
 }
 
-@media(max-width:576px) {
-    .service .card-container .card {
-        height: 140px;
-        padding: 15px;
-    }
+@media (max-width: 576px) {
+  .service .card-container .card {
+    height: 140px;
+    padding: 15px;
+  }
 }
 
 .service .card-container .card h6 {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .service .card-container .card .icon-box {
-    border: 1px solid var(--primary-card-border-color);
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+  border: 1px solid var(--primary-card-border-color);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 .service .card-container .card i {
-    color: rgb(157, 157, 157);
+  color: rgb(157, 157, 157);
 }
 
 .service .card-container .card:hover {
-    border-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
