@@ -1,16 +1,16 @@
-.country .c-body button i {
+.blog-section .c-body button i {
   transition: all 0.3s ease-in-out;
 }
 
-.country .c-body button:hover i {
+.blog-section .c-body button:hover i {
   transform: translateX(5px);
 }
 
-.country .blog-card {
+.blog-section .blog-card {
   position: relative;
 }
 
-.country .blog-card .blog-date {
+.blog-section .blog-card .blog-date {
   background-color: var(--primary-color-lighter);
   position: absolute;
   display: grid;
@@ -22,16 +22,24 @@
   left: -5px;
 }
 
-.country .blog-card .blog-date h3 {
+.blog-section .blog-card .blog-date h3 {
   margin: 0px;
   padding: 0px;
   color: white;
 }
 
-.country .blog-card .blog-date p {
+.blog-section .blog-card .blog-date p {
   margin: 0px;
   padding: 0px;
   font-size: 12px;
   color: white;
   text-transform: uppercase;
+}
+
+/* .blog-section .view-all-btn i {
+  transition: all .3s ease-in-out;
+} */
+.blog-section .view-all-btn:hover i {
+  color: white;
+  transform: translateX(5px);
 }
