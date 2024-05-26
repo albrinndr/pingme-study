@@ -290,6 +290,13 @@ body {
     border-color: var(--primary-color-darker);
 }
 
+@media(max-width:576px) {
+    .primary-btn {
+        font-size: 18px;
+        /* padding: 1em .5em; */
+    }
+}
+
 .secondary-btn {
     background: none;
     color: var(--primary-color);
