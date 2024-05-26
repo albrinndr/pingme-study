@@ -225,6 +225,7 @@ body {
     appearance: none;
     background-color: var(--primary-color);
     border-width: 0;
+    border-radius: var(--primary-card-border-radius);
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -289,7 +290,16 @@ body {
     border-color: var(--primary-color-darker);
 }
 
-
+.secondary-btn {
+    background: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    margin: 0px;
+    padding: 0;
+}
 
 .section-banner {
     height: 440px;
