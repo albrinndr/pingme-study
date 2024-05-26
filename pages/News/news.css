@@ -1,0 +1,36 @@
+.news .card strong {
+    color: #17a2b8 !important;
+    font-weight: bolder;
+}
+
+.news .card {
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.news .card p {
+    border-top: 1px solid #dee2e6 !important;
+    height: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.news .card button {
+    background-color: #ebebeb;
+    border-radius: var(--primary-btn-border-radius) !important;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    transition: all .3s ease-in-out;
+
+}
+
+.news .card button:hover {
+    background-color: #c2c2c2;
+}
+
+.news .card button:focus {
+    background-color: #acacac;
+}
