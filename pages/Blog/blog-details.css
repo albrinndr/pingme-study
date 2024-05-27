@@ -21,18 +21,18 @@
 }
 
 @media(min-width:768px) {
-    .blog-details h2 {
+    .blog-details .blog-content h2 {
         font-size: 2em;
         font-weight: normal;
     }
 
-    .blog-details h3 {
+    .blog-details .blog-content h3 {
         font-size: 1.75rem;
         font-weight: normal;
     }
 }
 
-.blog-details h4 {
+.blog-details .blog-content h4 {
     font-size: 25px;
 }
 
