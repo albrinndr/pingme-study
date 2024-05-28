@@ -1,0 +1,81 @@
+.affiliate-enquiry {
+    background-color: var(--secondary-white);
+}
+
+.affiliate-enquiry .form-container {
+    background-color: white;
+    margin-top: -100px;
+    position: relative;
+    padding: 50px 60px;
+    width: 100%;
+    max-width: 1086px;
+    margin: -150px auto 140px auto;
+    border: 1px solid #ededed;
+}
+
+.affiliate-enquiry .form-container .h4 {
+    max-width: 365px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .affiliate-enquiry .form-container {
+        padding: 10px 20px;
+    }
+
+    .affiliate-enquiry .form-container {
+        margin: -80px 140px;
+
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group label {
+    display: block;
+    font-weight: normal;
+    color: gray;
+    margin-bottom: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: grey;
+    transition: all 0.3s ease-in-out;
+}
+
+input,
+textarea {
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    padding: 5px 0;
+    outline: none;
+    transition: all .5s;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.form-group:focus-within label {
+    color: var(--primary-color);
+    font-size: 13px;
+}
+
+.form-group:focus-within label.required::after {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    resize: none;
+}
