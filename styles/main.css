@@ -19,6 +19,11 @@
   --mobile-main-padding: 10px;
   --mobile-section-padding: 30px;
   --no-banner-section-padding-mobile: 40px;
+
+  /* breakpoints */
+  --br-lg: 992px;
+  --br-md: 768px;
+  --br-sm: 576px;
 }
 
 * {

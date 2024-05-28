@@ -1,0 +1,19 @@
+.dates {
+    color: gray;
+    font-weight: 500;
+}
+
+.event-details ul {
+    line-height: 1.4;
+    /* Adjust line spacing */
+}
+
+.event-details li {
+    letter-spacing: .7px;
+}
+
+.event-details .other-events-section {
+    background-color: var(--secondary-white);
+    padding: 50px 0px;
+    border-top: 1px solid var(--primary-card-border-color);
+}

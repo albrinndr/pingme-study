@@ -1,0 +1,112 @@
+.other-events .card-text.p {
+    height: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.other-events .card-title {
+    margin-bottom: .7rem;
+}
+
+.other-events .event-card {
+    background-color: var(--secondary-white);
+    position: relative;
+}
+
+.other-events .c-body {
+    padding: 20px !important;
+}
+
+.other-events .germany-text {
+    background: linear-gradient(to right, black, black 33%, red 33%, red 66%, #FFD700 66%, #FFD700) !important;
+    color: white !important;
+}
+
+.other-events .sweden-text {
+    background: linear-gradient(to right, #005CBF, gold) !important;
+    color: white !important;
+}
+
+.other-events .europe-text {
+    background: radial-gradient(circle, #003399 10%, #001f4d 90%) !important;
+    color: #ffc720 !important;
+}
+
+.other-events .france-text {
+    background: linear-gradient(to right, #0055A4, white, #EF3340) !important;
+    color: black !important;
+}
+
+.other-events .tags {
+    font-weight: 600;
+}
+
+.other-events .tags span {
+    font-size: 12px;
+    padding: 3px;
+    border-radius: var(--primary-card-border-radius);
+}
+
+.other-events .webinar-text {
+    background-color: #ffc107 !important;
+    color: #5c5c5c !important;
+}
+
+.other-events .view-more {
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    border-radius: var(--primary-btn-border-radius);
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+.other-events .view-more:hover {
+    background-color: #bdbdbd;
+}
+
+@media(min-width:768px) {
+    .other-events .row {
+        margin-top: -25px !important;
+    }
+}
+
+@media(max-width:767px) {
+    .other-events .row {
+        margin-top: -20px !important;
+    }
+}
+
+.other-events .date-overlay {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    /* background: #acff2f; */
+    width: 30%;
+    padding: 3px 7px;
+    z-index: 9;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+
+.other-events .row .col-12:nth-child(even) .date-overlay {
+    background: #ffeb3b;
+}
+
+.other-events .row .col-12:nth-child(odd) .date-overlay {
+    background: #acff2f;
+
+}
+
+
+.other-events .date-overlay .date {
+    font-size: 19px !important;
+    font-weight: 600 !important;
+}
+
+.other-events .date-overlay .time {
+    font-size: 15px;
+}
