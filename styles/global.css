@@ -141,12 +141,25 @@ body {
   margin-right: 96px;
 }
 
+.left-pad-container {
+  padding-left: 96px;
+}
+
+.right-pad-container {
+  padding-right: 96px;
+}
+
 .left-container {
   margin-left: 96px;
 }
 
 .right-container {
   margin-right: 96px;
+}
+
+.base-pad-container {
+  padding-left: 96px;
+  padding-right: 96px;
 }
 
 @media (max-width: 992px) {
@@ -164,6 +177,21 @@ body {
     margin-left: 56px;
     margin-right: 56px;
   }
+
+  .left-pad-container {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .right-pad-container {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .base-pad-container {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -180,6 +208,26 @@ body {
   .right-container {
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .left-pad-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .left-pad-container.column1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .right-pad-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .base-pad-container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -338,8 +386,7 @@ body {
 }
 
 .section-banner .shade {
-  background: url("../assets/About/inner-banner-shade.png") center center
-    no-repeat !important;
+  background: url("../assets/About/inner-banner-shade.png") center center no-repeat !important;
   background-position: cover !important;
   background-color: rgba(38, 50, 56, 0.2) !important;
   position: absolute;
