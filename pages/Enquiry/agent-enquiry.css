@@ -1,0 +1,64 @@
+.agent-enquiry {
+    background-color: var(--secondary-white)
+}
+
+.form-group {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    color: #4f4f4f;
+}
+
+.form-group .required::after {
+    content: " *";
+    transition: all 0.3s ease-in-out;
+    color: #4f4f4f;
+}
+
+input,
+textarea,
+select {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 5px 0;
+    outline: none;
+    transition: all .3s;
+    padding: 0px 5px;
+    width: 100%;
+    background: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.form-group:focus-within label {
+    color: var(--primary-color);
+    font-size: 13px;
+}
+
+.form-group:focus-within label.required::after {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+textarea {
+    resize: none;
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    gap: 2;
+    cursor: pointer;
+    color: var(--primary-color-lighter) !important;
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 3px;
+}
