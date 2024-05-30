@@ -9,8 +9,7 @@
 }
 
 .inner-banner .shade {
-  background: url("../../assets/About/inner-banner-shade.png") center center
-    no-repeat !important;
+  background: url("../../assets/About/inner-banner-shade.png") center center no-repeat !important;
   background-position: cover !important;
   background-color: rgba(38, 50, 56, 0.2) !important;
   position: absolute;
@@ -105,8 +104,7 @@
 }
 
 .specialty-section {
-  background: url("../../assets/About/specialty-img.jpg") center center
-    no-repeat;
+  background: url("../../assets/About/specialty-img.jpg") center center no-repeat;
   height: 91vh;
   position: relative;
 }
@@ -197,7 +195,7 @@
   border-bottom-right-radius: 50%;
 }
 
-.specialty-section .row > div:nth-child(2) {
+.specialty-section .row>div:nth-child(2) {
   display: grid;
   place-content: center;
   color: white;
@@ -216,7 +214,7 @@
 
 .team-section .member-list img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .team-section .member-img-box {

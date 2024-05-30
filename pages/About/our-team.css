@@ -1,0 +1,176 @@
+.team-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-section .member-list img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.team-section .member-img-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.team-section .member-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: rgba(59, 59, 59, 0.6);
+    border-radius: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 20px;
+}
+
+.team-section .member {
+    cursor: pointer;
+}
+
+.team-section .member:hover .member-content {
+    opacity: 1;
+}
+
+.team-section .member .bio {
+    text-align: center;
+}
+
+.team-section .member .bio h5 {
+    font-weight: 600;
+}
+
+.team-section .member .bio p {
+    font-size: 14px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.team-section .member .bio .social {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    gap: 15px;
+}
+
+@media (max-width: 576px) {
+    .team-section .member-content {
+        position: inherit;
+        opacity: 1;
+        background: none;
+        color: black;
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 0px;
+    }
+
+    .team-section article h2 {
+        font-size: 25px !important;
+        line-height: 44px;
+    }
+
+    .team-section .member {
+        cursor: auto;
+    }
+
+    .team-section article {
+        text-align: start;
+    }
+}
+
+.team-section article h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 57px;
+}
+
+.team-section article p {
+    max-width: 70vw;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .team-section article p {
+        max-width: 100vw;
+    }
+}
+
+
+
+.hiring-section {
+    position: relative;
+    padding: 80px 0;
+}
+
+@media (max-width: 1440px) {
+    .std-section {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .std-section {
+        padding: 90px 0px;
+    }
+}
+
+.std-section {
+    padding: 150px 0px;
+}
+
+.std-section .shade {
+    background-color: rgba(0, 23, 44, 0.2) !important;
+}
+
+.shade-overlay-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.shade {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.hiring-section .card ul li {
+    color: #010101;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.hiring-section .card ul {
+    padding-left: 1.1rem;
+}
+
+
+@media(min-width:768px) {
+    .hiring-section .card ul {
+        padding-left: 0px;
+    }
+
+    .hiring-section .card ul li {
+        background: url('../../assets/About/list-arrow.png') center left no-repeat !important;
+        list-style: none;
+        padding-left: 40px;
+    }
+}
+
+.hiring-section .col-lg-5 {
+    color: white;
+}
