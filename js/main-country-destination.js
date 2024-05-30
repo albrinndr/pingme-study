@@ -99,8 +99,69 @@ const headerActiveFn = () => {
   }
 }
 
+function countryDestinationFn() {
+  $('ul li a').click(function () {
+    console.log('Tab link clicked')
+
+    $('ul li').removeClass('active')
+    $(this).parent('li').addClass('active')
+
+    var tabId = $(this).attr('href')
+
+    $('.column2').removeClass('active-content').addClass('hidden-content')
+    $(tabId).removeClass('hidden-content').addClass('active-content')
+
+    return false
+  })
+
+  const listItems = document.querySelectorAll('.country-destinations ul li')
+  listItems.forEach((item, index) => {
+    const delay = (index + 1) * 200
+
+    item.style.transitionDelay = `${delay}ms`
+  })
+
+  var owl = $('.owl-carousel')
+
+  owl.owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2.1,
+      },
+    },
+  })
+
+  $('.prevBtn').click(function () {
+    owl.trigger('prev.owl.carousel')
+  })
+
+  $('.nextBtn').click(function () {
+    owl.trigger('next.owl.carousel')
+  })
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show')
+      }
+    })
+  })
+
+  const hiddenElements = document.querySelectorAll('.hidden')
+  hiddenElements.forEach(el => observer.observe(el))
+}
+
 document.addEventListener('DOMContentLoaded', function () {
-  injectHtml([countrySidebarFn, headerActiveFn])
+  injectHtml([countrySidebarFn, headerActiveFn, countryDestinationFn])
 })
 
 document.addEventListener('scroll', () => {
