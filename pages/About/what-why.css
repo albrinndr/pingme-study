@@ -1,5 +1,5 @@
 .content-section {
-    padding: 30px 0;
+    margin: 50px 0;
 }
 
 .what-we {
@@ -14,6 +14,7 @@
 
 .content-section .right-content {
     background-color: white;
+    padding: 50px 0px;
 }
 
 .content-section .col-lg-8 .h4 {
@@ -40,6 +41,6 @@
     }
 
     .content-section {
-        padding: 10px 0;
+        margin: 10px 0;
     }
 }
