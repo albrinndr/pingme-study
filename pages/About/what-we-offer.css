@@ -1,0 +1,45 @@
+.content-section {
+    padding: 30px 0;
+}
+
+.what-we {
+    background-color: var(--secondary-white);
+}
+
+.content-section .right-content,
+.content-section .left-content {
+    margin: 35px 0px;
+    padding: 30px 0px;
+}
+
+.content-section .right-content {
+    background-color: white;
+}
+
+.content-section .col-lg-8 .h4 {
+    padding: 15px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #010101;
+}
+
+
+@media(max-width:576px) {
+    .content-section article .img {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .content-section .right-content,
+    .content-section .left-content {
+        margin: 0px 0px;
+        padding: 30px 0px;
+    }
+
+    .content-section {
+        padding: 10px 0;
+    }
+}
