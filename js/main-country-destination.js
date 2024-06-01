@@ -121,7 +121,7 @@ function countryDestinationFn() {
     item.style.transitionDelay = `${delay}ms`
   })
 
-  var owl = $('.owl-carousel')
+  var owl = $('.destination-owl-carousel')
 
   owl.owlCarousel({
     loop: true,
