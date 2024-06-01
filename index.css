@@ -196,7 +196,7 @@
 }
 
 .home .std-section {
-    padding: 100px;
+    padding: 100px 0px;
     position: relative;
 }
 
@@ -381,4 +381,39 @@
     padding-top: 12px;
     padding-bottom: 12px;
     opacity: 1 !important;
+}
+
+/*  why choose us*/
+
+.home .home-why-choose-us .col-lg-3 {
+    margin: 20px 0px;
+    padding: 40px 35px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+.home .home-why-choose-us .col-lg-3 img{
+margin-bottom: 3px;
+}
+.home .home-why-choose-us .col-lg-3:hover {
+    background-color: var(--secondary-white);
+}
+
+
+@media (max-width: 992px) {
+    .home .home-why-choose-us .col-lg-3 {
+        margin: 0px;
+        padding: 40px 20px 0px 20px;
+    }
+}
+@media (max-width: 576px) {
+    .home .home-why-choose-us .col-lg-3 {
+        margin: 0px;
+        padding: 30px 20px 0px 20px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .home .home-why-choose-us .col-lg-3 {
+        padding: 40px 20px;
+    }
 }
