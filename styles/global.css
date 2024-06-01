@@ -357,6 +357,14 @@ body {
   padding: 0;
 }
 
+.secondary-btn i {
+  transition: all .3s;
+}
+
+.secondary-btn:hover i {
+  transform: translateX(3px);
+}
+
 .section-banner {
   height: 440px;
   overflow: hidden;
