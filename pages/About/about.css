@@ -162,6 +162,10 @@
   color: white;
 }
 
+.specialty-section .boxes .item:hover img {
+  filter: brightness(0) invert(1);
+}
+
 .specialty-section .boxes .item article {
   padding: 10px;
 }
@@ -206,6 +210,9 @@
   align-items: center;
   gap: 20px;
   margin-bottom: 20px;
+}
+.mob-specialty-section img{
+  max-width: 33px;
 }
 
 .team-section article {
