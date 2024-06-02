@@ -2,12 +2,12 @@
     background-color: var(--secondary-white)
 }
 
-.form-group {
+.agent-enquiry .form-group {
     margin-bottom: 20px;
     transition: all 0.3s ease-in-out;
 }
 
-.form-group label {
+.agent-enquiry .form-group label {
     display: block;
     font-weight: normal;
     margin-bottom: 5px;
@@ -15,15 +15,15 @@
     color: #4f4f4f;
 }
 
-.form-group .required::after {
+.agent-enquiry .form-group .required::after {
     content: " *";
     transition: all 0.3s ease-in-out;
     color: #4f4f4f;
 }
 
-input,
-textarea,
-select {
+.agent-enquiry input,
+.agent-enquiry textarea,
+.agent-enquiry select {
     border: none;
     border-bottom: 1px solid #d6d6d6;
     padding: 5px 0;
@@ -34,26 +34,26 @@ select {
     background: none;
 }
 
-input:focus,
-textarea:focus {
+.agent-enquiry input:focus,
+.agent-enquiry textarea:focus {
     border-color: var(--primary-color);
 }
 
-.form-group:focus-within label {
+.agent-enquiry .form-group:focus-within label {
     color: var(--primary-color);
     font-size: 13px;
 }
 
-.form-group:focus-within label.required::after {
+.agent-enquiry .form-group:focus-within label.required::after {
     color: var(--primary-color);
     transition: all 0.3s ease-in-out;
 }
 
-textarea {
+.agent-enquiry textarea {
     resize: none;
 }
 
-.file-label {
+.agent-enquiry .file-label {
     display: flex;
     align-items: center;
     gap: 2;

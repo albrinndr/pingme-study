@@ -31,12 +31,13 @@
     }
 }
 
-.form-group {
+.affiliate-enquiry .form-group {
+    /* Add your styles here */
     margin-bottom: 20px;
     transition: all 0.3s ease-in-out;
 }
 
-.form-group label {
+.affiliate-enquiry .form-group label {
     display: block;
     font-weight: normal;
     color: gray;
@@ -44,14 +45,14 @@
     transition: all 0.3s ease-in-out;
 }
 
-.form-group .required::after {
+.affiliate-enquiry .form-group .required::after {
     content: " *";
     color: grey;
     transition: all 0.3s ease-in-out;
 }
 
-input,
-textarea {
+.affiliate-enquiry input,
+.affiliate-enquiry textarea {
     border: none;
     border-bottom: 1px solid #dee2e6;
     padding: 5px 0;
@@ -61,21 +62,31 @@ textarea {
     width: 100%;
 }
 
-input:focus,
-textarea:focus {
+.affiliate-enquiry input:focus,
+.affiliate-enquiry textarea:focus {
     border-color: var(--primary-color);
 }
 
-.form-group:focus-within label {
+.affiliate-enquiry .form-group:focus-within label {
     color: var(--primary-color);
     font-size: 13px;
 }
 
-.form-group:focus-within label.required::after {
+.affiliate-enquiry .form-group:focus-within label.required::after {
     color: var(--primary-color);
     transition: all 0.3s ease-in-out;
 }
 
-textarea {
+.affiliate-enquiry textarea {
     resize: none;
+}
+
+footer {
+    margin-top: -150px;
+}
+
+@media(max-width:768px) {
+    footer {
+        margin-top: 150px;
+    }
 }

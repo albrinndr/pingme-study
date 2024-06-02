@@ -107,6 +107,7 @@
 .contact .map-nav .agent-enquiry-box {
     padding: 7% 5%;
     position: relative;
+    overflow: hidden;
 }
 
 .contact .map-nav .agent-enquiry-box img {
@@ -141,4 +142,8 @@
 .contact .map-nav .col-lg-7 iframe {
     width: 100%;
     height: 100%;
+}
+
+.contact .row {
+    margin: 0px !important;
 }

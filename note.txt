@@ -1,0 +1,5 @@
+    <link rel="stylesheet" href="../../components/Footer/footer.css">
+<footer
+      class="content"
+      inject-html="../../components/Footer/footer.html"
+    ></footer>
