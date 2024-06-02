@@ -51,6 +51,13 @@ body {
   color: #010101;
 }
 
+@media(max-width:768px) {
+  .h3 {
+    font-size: 23px;
+    text-transform: none;
+  }
+}
+
 @media (max-width: 1366px) {
   .h3 {
     font-size: 30px;
