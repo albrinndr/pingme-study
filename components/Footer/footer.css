@@ -1,0 +1,151 @@
+@media (max-width: 1440px) {
+    .footer {
+        padding: 60px 0 40px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .footer {
+        padding: 90px 0px 70px 0px;
+    }
+}
+
+.footer {
+    padding: 120px 0px 90px 0px;
+}
+
+.footer article {
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.footer .row h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 30px 0px;
+    font-size: 17px;
+}
+
+.footer .footnav {
+    padding-left: 0px ! important;
+}
+
+.footer ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    line-height: 34px;
+}
+
+.footer ul li a:hover {
+    color: var(--primary-color);
+    transition: all 0.3s;
+}
+
+/* @media (max-width: 1199px) {
+    .footer ul li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .footer ul li a {
+        font-size: 16px;
+    }
+} */
+
+
+.footer .col-lg-5 {
+    /* padding-left: 70px; */
+}
+
+.footer .col-lg-5 .h3 {
+    text-transform: none;
+}
+
+.footer .col-lg-5 .p {
+    font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+    .footer .col-lg-5 .h3 {
+        font-size: 22px !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .footer .col-lg-5 .h3 {
+        font-size: 30px;
+    }
+}
+
+.footer .col-lg-5 form {
+    border: 1px solid black;
+    display: flex;
+    max-width: 500px;
+}
+
+.footer .col-lg-5 form input {
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+}
+
+.footer .col-lg-5 form button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 22px;
+    border-left: 1px solid black;
+    transition: all 0.3s;
+}
+
+.footer .col-lg-5 form button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.footer .certificate_img a {
+    height: auto;
+    width: 300px;
+    display: block;
+}
+
+.footer .certificate_img img {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+}
+
+.copyright {
+    border-top: 1px solid rgb(220, 220, 220);
+    padding: 7px 0px;
+}
+
+.copyright p {
+    margin-bottom: 0px;
+    color: gray;
+    font-size: 13px !important;
+}
+
+.copyright .conditions {
+    font-weight: 500 !important;
+}
+
+.footer-mob {
+    padding: 30px 0px 20px 0px;
+    font-size: 12px;
+    text-align: center;
+    background-color: gray;
+}
