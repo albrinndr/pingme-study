@@ -7,6 +7,10 @@
     position: relative;
 }
 
+.blog-details {
+    /* overflow-x: hi; */
+}
+
 .blog-details .blog-banner {
     margin-bottom: 80px;
 }

@@ -578,3 +578,7 @@
 .home .other-section {
     background-color: var(--secondary-white);
 }
+
+.home {
+    overflow-x: hidden;
+}

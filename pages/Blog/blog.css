@@ -8,7 +8,9 @@
 .blog-section .c-body button i {
     transition: all 0.3s ease-in-out;
 }
-
+.blog{
+    overflow-x: hidden;
+}
 .blog-section .c-body button:hover i {
     transform: translateX(5px);
 }

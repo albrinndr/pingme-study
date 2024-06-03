@@ -33,13 +33,17 @@ function injectHtml(callbacks) {
 }
 
 const mobileSidebarLinkFn = () => {
-  const accordionButtons = document.querySelectorAll('.accordion-button')
-  const accordionLinks = document.querySelectorAll('.accordion-link')
+  const accordionButtons = document.querySelectorAll(
+    '.header-mobile-container .accordion-button'
+  )
+  const accordionLinks = document.querySelectorAll(
+    '.header-mobile-container .accordion-link'
+  )
 
   accordionLinks.forEach(link => {
     link.addEventListener('click', function (event) {
-      event.stopPropagation() // Prevent the accordion toggle
-      window.location.href = link.getAttribute('href') // Navigate to the link
+      event.stopPropagation()
+      window.location.href = link.getAttribute('href')
     })
   })
 
@@ -101,6 +105,13 @@ const headerActiveFn = () => {
 
 document.addEventListener('DOMContentLoaded', function () {
   injectHtml([countrySidebarFn, headerActiveFn])
+  const fixOverflow = () => {
+    document.documentElement.style.overflowX = 'hidden'
+    document.body.style.overflowX = 'hidden'
+  }
+
+  fixOverflow()
+  window.addEventListener('resize', fixOverflow)
 })
 
 document.addEventListener('scroll', () => {
