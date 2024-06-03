@@ -172,4 +172,17 @@ document.addEventListener('scroll', () => {
   } else {
     headerContainer.classList.remove('header-scrolled')
   }
+
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn')
+  if (window.scrollY > 300) {
+    scrollToTopBtn.classList.add('show')
+  } else {
+    scrollToTopBtn.classList.remove('show')
+  }
+  scrollToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  })
 })

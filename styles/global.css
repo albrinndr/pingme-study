@@ -337,6 +337,10 @@ body {
   color: black;
 }
 
+.primary-btn:hover span i {
+  color: white !important;
+}
+
 .primary-btn span {
   z-index: 1;
   position: relative;
@@ -546,4 +550,37 @@ body {
   .no-banner-paddingY {
     padding: var(--no-banner-section-padding-mobile) 0px;
   }
+}
+
+
+.scrollToTopBtn {
+  position: fixed;
+  right: 38px;
+  bottom: 120px;
+  transform: translate(50%, 50%);
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.289);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 20px;
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.scrollToTopBtn:hover {
+  background-color: rgba(0, 0, 0, 0.53);
+
+}
+
+.scrollToTopBtn.show {
+  opacity: 1;
+  pointer-events: all;
+  transition: all 0.5s;
 }

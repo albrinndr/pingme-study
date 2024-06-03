@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ed Euro</title>
-    <link rel="icon" href="../../assets/logo/logo2.png" />
+    <link rel="icon" href="../../assets/favicon.png" />
     <link rel="stylesheet" href="../../styles/main.css" />
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../../components/Navbar/navbar.css" />
     <link rel="stylesheet" href="./serviceList.css" />
     <link rel="stylesheet" href="../../components/Footer/footer.css" />
-
+    <link rel="stylesheet" href="../../components/whatsapp/whatsapp.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -253,11 +253,11 @@
             <div class="detail-part mini-padding-y">
               <p class="p">
                 Congratulations! You are reading this page because you just have
-                received your visa with Pingme Study Abroad. Now it’s time to
-                prepare for your travel. But many people experience several
-                hassles while travelling to a foreign country for the first time
-                alone. If you don’t want to end up being someone like that, call
-                us today for our travel assistance!
+                received your visa with Ed Euro. Now it’s time to prepare for
+                your travel. But many people experience several hassles while
+                travelling to a foreign country for the first time alone. If you
+                don’t want to end up being someone like that, call us today for
+                our travel assistance!
               </p>
               <p class="p">
                 You need to go through our pre-departure guidance program for
@@ -270,10 +270,10 @@
                 to enjoy their first foreign travel at maximum.
               </p>
               <p class="p">
-                We at Pingme Study Abroad provide detailed guidance for students
-                and travellers about baggage packing, transit to the airport,
-                travel checklist, airport procedures, flight procedures and even
-                pick up from the destination. Our guidance program includes a
+                We at Ed Euro provide detailed guidance for students and
+                travellers about baggage packing, transit to the airport, travel
+                checklist, airport procedures, flight procedures and even pick
+                up from the destination. Our guidance program includes a
                 detailed orientation on what to expect at the immigration check
                 and port of entry, which will be highly useful for first-time
                 travellers.
@@ -292,13 +292,15 @@
                 Want to get free counseling? Don’t hesitate to contact us with
                 your doubts.
               </p>
-              <button class="primary-btn mt-4">
-                <span
-                  >Get a free consultation &nbsp;&nbsp;<i
-                    class="fa-solid fa-angles-right"
-                  ></i
-                ></span>
-              </button>
+              <a href="../../pages/contact/contact.html">
+                <button class="primary-btn mt-4">
+                  <span
+                    >Get a free consultation &nbsp;&nbsp;<i
+                      class="fa-solid fa-angles-right"
+                    ></i
+                  ></span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -308,7 +310,14 @@
       class="content"
       inject-html="../../components/Footer/footer.html"
     ></footer>
-    
+    <div
+      class="content"
+      inject-html="../../components/whatsapp/whatsapp.html"
+    ></div>
+    <button class="scrollToTopBtn d-md-none" id="scrollToTopBtn">
+      <i class="fas fa-caret-up"></i>
+    </button>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
